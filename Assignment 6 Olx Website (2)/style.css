@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Geomanist, Helvetica;
+    /* overflow-x: hidden; */
+}
+.bg-customize-mine {
+    background-color: #EBF1FF;
+    top: 0;
+    z-index: 100;
+}
+
+.Olx-brand-customize {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.bg-customize-mine-navbar {
+    display: flex;
+    background-color:#EBF1FF ;
+    align-items: center;
+
+}
+
+.customize-category {
+    font-family: Geomanist, Helvetica;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+}
+
+.customize-category:hover {
+    color: #3a77ff !important;
+}
+
+.navbar-category-customize{
+align-items: center;
+
+}
+
+.Car-img-navbar-customize {
+    width: 51.5px;
+    display: flex;
+    align-items: ;
+}
+
+.House-img-navbar-customize {
+    width: 45px;
+    height: 35px;
+}
+
+.my-customize-container {
+    display: flex;
+    justify-content: end;
+}
+
+.customize-ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* margin-left: 800px; */
+    gap: 80px;
+}
+
+.Login-btn-customize-mine {
+    font-size: 18px;
+    font-weight: 700;
+    color: #002f34;
+    font-family: Geomanist, Helveica, Arial;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    /* margin-left: 700px; */
+    
+}
+
+.Login-btn-customize-mine:hover {
+    border-bottom: none;
+}
+
+.Sell-btn-customize-mine {
+    font-size: 16px;
+    font-weight: 700;
+    color: #002f34;
+    font-family: Geomanist, Helveica, Arial;
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px 18px;
+    border: 1px solid #3a77ff;
+    cursor: pointer;
+    transition: all 1s ease-in;
+    /* position: relative;
+    left: 800px; */
+ border-image: url(.) 20% round;
+    /* border-image: url('') 30 stretch; */
+    margin-left: px;
+}
+
+.Sell-btn-customize-mine:hover {
+    border: none;
+}
+
+.customize-ul {
+    display: flex;
+/* margin-left: 80%; */
+    gap: 20px;
+    /* padding: 16px ; */
+    width: 100%;
+}
+
+.dropdown-menu{
+
+    background-color: #EBF1FF;
+}
+
+.location-field{
+
+    
+}
+
+.location-field button{
+
+    width: 400px;
+}
+
+.Location-container-customize{
+
+    outline: none;
+    font-size: 18px;
+    /* padding: 0 12px; */
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px 18px;
+    /* width: 25%; */
+    border: none;
+    
+    
+}
+
+
+.Location-container-customize option{
+
+    cursor: pointer;
+}
+.Location-container-customize option:hover{
+
+    background-color: #EBF1FF;
+}
+
+.option-location{
+/* background-color: #EBF1FF; */
+
+}
+
+.option-location-disabled{
+
+    /* background-color: white; */
+}
+
+.location-customize-btn-id{
+
+    border: 1px solid black;
+}
+
+.navbar-buttons{
+    margin-right: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.Location-icon-img{
+/* border: 1px solid black; */
+margin-left: 5px;
+}
+
+.location-icon-dropdown-parent{
+
+display: flex;
+    align-items: center;
+    border: 1px solid black;
+    /* width: fit-content; */
+    /* padding: 5px 10px; */
+    border-radius: 6px;
+    width: max-content;
+    padding: 6px 50px 6px 6px;
+    text-align: center;
+}
+
+.location-icon-dropdown-parent:{
+
+    border: 10px solid #3a77ff;
+}
+
+.header-search-bar input{
+
+    width: 500px;
+    outline: none;
+    padding: 12px 16px;
+    transition: all  0.5s ease;
+    /* border-radius: 8px; */
+    /* text-align: left; */
+
+}
+
+.header-search-bar input:focus{
+    border: 1px solid #3a77ff;
+}
+
+.header-parent-section-location-searchbar{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 80%;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 15px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+
+.search-button{
+border: none;
+background: #002f34;
+padding: 13px 16px;
+margin: 0 !important;
+text-align: center;
+}
+
+.search-button span{
+    color: white;
+    font-weight: 600;
+}
+.search-button img{
+
+
+    width: 24px;
+    height: 24px;
+}
+
+.header{
+
+    /* border-bottom: 1px solid rgb(196, 191, 191);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    */
+}
+@media only screen and (max-width:577px) {
+    .Login-btn-customize-mine {
+        /* display: none; */
+        /* appearance: none; */
+        /* visibility: hidden; */
+    }
+    .customize-ul {
+    /* display: flex; 
+margin-left: 0;
+    gap: 20px;
+     padding: 16px ; 
+    width: 100%;
+}*/
+
+}

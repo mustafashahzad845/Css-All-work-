@@ -1,0 +1,13 @@
+.BOX1 {
+    color: brown;
+    border: 2px solid blue;
+    width: 50%;
+    
+    min-height: 10px;
+max-height: 100px;
+
+overflow: hidden;
+overflow: scroll;
+overflow: auto;
+color: blue;
+}

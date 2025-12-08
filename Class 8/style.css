@@ -1,0 +1,68 @@
+/* /* .Class8{
+
+    color: green;
+} */
+
+ /*.Box1{
+
+    background-color: red;
+}
+
+.Box2{
+
+    background-color: green;
+    position: relative;
+    top: 100px 
+    position: absolute;
+    top: 550px;
+    right: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.Box3{
+
+   background-color: blue;
+   position: fixed;
+   top: 550px;
+    right: 50px;
+} 
+
+.parent{
+
+
+}   */
+
+
+.Box1{
+
+    background-color: red;
+
+}
+
+.Box2{
+
+    background-color:green;
+    
+}
+
+.Box3{
+
+    background-color: blue;
+    
+}
+
+.Box4{
+
+    background-color: purple;
+}
+
+.parent{
+
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}

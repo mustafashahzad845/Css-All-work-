@@ -1,0 +1,36 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+
+    /* padding: 0 24px; */
+    padding: 8px 0;
+background-color: #EBF1FF;
+}
+.nav-bar{
+background-color: #EBF1FF;
+width: 100%;
+min-height: 64px;
+/* margin: 0 24px; */
+
+/* padding: 8px 0;
+margin: 0 24px; */
+}
+
+.olx-logo{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  
+}
+
+.navbar-images-parent img{
+padding: 8px 0;
+
+
+}

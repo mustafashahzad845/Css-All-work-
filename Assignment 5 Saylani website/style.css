@@ -1,0 +1,552 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.International-donors-line{
+
+    font-size: 18px;
+    color: rgb(117, 111, 111);
+    font-family:   'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px 25px;
+}
+
+.International-donors-websites-parent{
+
+    /* background-color: rgb(241, 233, 233); */
+    background-color: lightgray;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.International-donors-websites-parent img{
+
+    width: 35px;
+
+}
+
+
+.header{
+background-color: white;
+/* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+/* box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px; */
+box-shadow: rgba(50, 50, 93, 0.1) 0px 13px 27px -5px, rgba(0, 0, 0, 0.15) 0px 8px 16px -8px;
+
+/* align-items: center; */
+display: flex;
+position: sticky;
+top: 0;
+z-index: 100; 
+}
+
+
+.header a{
+
+    text-decoration: none;
+    color: rgb(140, 136, 136);
+    font-size: 18px;
+    /* flex: 1; */
+    justify-content: center;
+    /* text-align: center; */
+    /* text-align: right; */
+    position: relative;
+    left: 100px;
+
+}
+
+nav{
+
+    /* align-items: start; */
+    align-items: center;
+    display: flex;
+    gap: 35px;
+    /* justify-content: space-between; */
+    width: 100%;
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    position: sticky;
+    top: 0;
+
+}
+
+nav img{
+
+margin-left: 10px;
+cursor: pointer;
+    
+}
+
+.btn-navbar{
+
+    color: white;
+    background-color: rgb(51, 110, 204);
+    border: none;
+    position: relative;
+    left: 240px;
+    padding: 8px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-navbar:hover{
+
+    background-color: #8dc63f;
+        /* transition: all 1s ease-in-out; */
+
+
+}
+
+.header a:hover{
+
+    text-decoration: underline #8dc63f;
+    position: relative;
+}
+
+
+#Saylani{
+
+    color: #8dc63f;
+    font-size:45px;
+}
+
+.first-main-heading{
+
+    margin-top: 175px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 52px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.main-content-body-parent{
+
+   display: flex;
+   gap: 30px;
+}
+
+#img-Saylani-work2{
+
+    position: relative;
+    top: 120px;
+     margin-bottom: 30px;
+}
+
+#img-Saylani-work3{
+
+    position: relative;
+    /* top:800px ; */
+    left: 850px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.paragraph1{
+
+    
+font-size: 14px;
+font-weight: 400;
+}
+
+
+.Explore-btn{
+
+    position: relative;
+    top: 500px;
+    left: 0;
+}
+
+.center-tab{
+
+    background-color: #deffb0;
+    /* min-height: 150px; */
+    margin: 0px 15px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    padding: 40px 15px;
+    
+}
+
+.input-side{
+background-color: #424242;
+  color: white;
+  padding: 18px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-family: sans-serif;
+
+
+}
+
+.inputfield1{
+
+  padding: 14px 15px;
+  border-radius: -5px; 
+  outline: none; 
+  font-size: 20px;
+  font-weight: 30;
+border: 1px solid #424242;
+}
+
+.center-tab-btn{
+
+      padding: 16px 20px;
+    border: none;
+    background-color: white;
+    color: #000000;
+    border-radius: 8px;
+    font-size: 16px;
+    /* font-weight: 550; */
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+
+ .center-tab2{
+
+    display: flex;
+gap: 30px;
+margin-left: 30px;
+flex-wrap: wrap;
+}
+
+.center-tab-btn:hover{
+
+    color: white;
+    background-color: #424242;
+}
+
+.center-tab-btn-donate{
+  padding: 16px 20px;
+    border: none;
+    background-color: #8dc63f;
+   color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    /* font-weight: 550; */
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all 0.7s ease;
+    cursor: pointer;
+
+}
+
+.center-tab-btn-donate:hover{
+
+      transform: scale(1.1); 
+      
+}
+
+.inputfield1::-webkit-inner-spin-button{
+
+    appearance: none;
+}
+
+.inputfield1::-webkit-outer-spin-button{
+
+    appearance: none;
+}
+
+.ITPark-img{
+
+    padding: 0 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.our-work-heading{
+
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    margin-bottom: 40px;
+}
+
+.cards{
+
+    margin: 0px 15px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+}
+
+.cards img{
+
+transition: all 0.3s ease; 
+}
+
+.cards img:hover{
+
+    transform: scale(1.1);
+
+}
+
+.Category-with-bg-img-parent{
+
+    padding: 0 20px;
+    gap: 30px;
+    display: flex;
+}
+
+.Category-with-bg-img1{
+
+    background-image: linear-gradient(rgba(30, 29, 29, 0.5), rgba(20, 20, 20, 0.5)),
+     url(./Images/Mediacl\ treatment\ img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 270px;
+    margin-left: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.Category-with-bg-img2{
+
+    background-image:linear-gradient(rgba(30, 29, 29, 0.5), rgba(20, 20, 20, 0.5)),
+     url(./Images/Kifalat\ families\ img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 270px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.Category-with-bg-img3{
+    background-image: linear-gradient(rgba(30, 29, 29, 0.5), rgba(20, 20, 20, 0.5)), 
+    url(./Images/Flood\ Relief.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 270px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.Category-with-bg-img-description{
+
+    margin-top: 35px;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.donate-category-btn{
+
+    color: white;
+    background-color: #8dc63f;
+    border: none;
+    width: 92%;
+    margin: 120px 16px;
+    font-size: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px ;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+
+
+.Category-with-bg-img1:hover{
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    url(./Images/Mediacl\ treatment\ img.png);
+    opacity: 0.8;
+    transform: scale(1.07);
+}
+
+.Category-with-bg-img2:hover{
+background-image: linear-gradient(rgba(255, 255, 255, 0.8)) rgba(255, 255, 255, 0.9), 
+    url(./Images/Kifalat\ families\ img.png);
+    opacity: 0.8;
+    transform: scale(1.07);
+
+}
+
+.Category-with-bg-img3:hover{
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
+    url(./Images/Flood\ Relief.png);
+    opacity: 0.8;
+    transform: scale(1.07);
+}
+
+.monyhly-data-img-parent{
+
+    margin: 30px 20px 50px;
+}
+
+.monyhly-data-img{
+
+    width: 100%;
+
+}
+
+/* .Media-Update-heading{
+
+    color: black;
+    font: 80px;
+    text-align: center;
+    font-family: poppins;
+} */
+
+marquee > img{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.footer{
+
+    /* background-image: url(./Images/Untitled\ design\ \(25\).jpg); */
+
+    background-image: linear-gradient(lightgray,gray);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    border-bottom: 1px sol;
+}
+
+.footer-Saylani-logo{
+
+    width: 350px;
+    /* position: absolute; */
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.footer-container1{
+
+    padding: 0px 12px;
+    margin-left: 60px;
+    /* position: absolute; */
+    margin-top: 50px;
+ 
+}
+
+.footer-div-social-media-icons{
+
+    width: 48px;
+    margin-top: 15px;
+}
+
+
+
+.footer-social-media-icons-div{
+
+    display: flex;
+    gap: 20px;
+    padding: 0 15px;
+    margin-bottom: 20px
+}
+
+.facebook-icon{
+
+    ;
+}
+
+.footer-img-dmca_protected{
+
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.get-it-on-app-store-img{
+
+    margin-left: 5px;
+    width: 130px;
+    /* display: block; */
+    cursor: pointer;
+}
+
+.get-it-on-googleplay-store-img{
+
+     margin-left: 5px;
+    width: 130px;
+    /* display: block; */
+    cursor: pointer;
+}
+
+.Footer-icon-section-2{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.Footer-icon-section-2 a{
+
+    width: fit-content;
+}
+
+.footer-listing-heading{
+
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: Poppins-Regular,Arial;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+
+.footer-listing-parent ol{
+
+    list-style-type: none;
+    color: white;
+    padding: 0px 12px;
+    margin-left: 60px;
+    /* position: absolute; */
+    margin-top: 110px;
+    font-family: Poppins-Regular,Calibri;
+    font-size: 20px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.footer-listing-parent{
+
+    display: flex;
+}
+
+.footer-listing-parent ol a{
+
+    text-decoration: none;
+    color: white;
+}

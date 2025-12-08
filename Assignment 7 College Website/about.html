@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;200;,300;,400;,500;,600;,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="Images/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav> <a href="index.html"> <img src="Images/logo.webp" alt=""> </a>
+            <div class="nav-links" id="navLinks"> <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="about.html">ABOUT</a> </li>
+                    <li> <a href="">COURSE</a> </li>
+                    <li> <a href="">BLOG</a> </li>
+                    <li> <a href="">CONTACT</a> </li>
+                </ul>
+            </div> <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section> <!-- about us content -->
+    <section class="about-us"> <!-- <div class="about-row"> -->
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil totam vitae assumenda sapiente nulla
+                    saepe molestiae eos incidunt aperiam aspernatur nemo recusandae fuga quam placeat sed dignissimos
+                    eligendi, veniam, iste sit blanditiis veritatis quibusdam, corporis aliquam. Architecto modi illo
+                    asperiores aut rerum doloremque, ratione distinctio corrupti quia cupiditate reprehenderit, dolore
+                    blanditiis id magnam recusandae quos.</p> <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col"> <img src="Images/about.webp" alt=""> </div>
+        </div>
+    </section> <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus
+            est<br /> sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons"> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-x-twitter"></i> <i
+                class="fa-brands fa-square-instagram"></i> <i class="fa-brands fa-square-linkedin"></i> </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorials </p>
+    </section> <!--------Javascript for toggle menu------->
+
+</body>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+           // ...existing code...
+        // Replace previous showMenu/hideMenu with class toggling
+        document.addEventListener('DOMContentLoaded', function () {
+            var navLinks = document.getElementById('navLinks');
+            var openBtn = document.querySelector('.fa-bars');
+            var closeBtn = navLinks.querySelector('.fa-xmark');
+
+            function showMenu() {
+                navLinks.classList.add('show');
+            }
+            function hideMenu() {
+                navLinks.classList.remove('show');
+            }
+
+            if (openBtn) openBtn.addEventListener('click', showMenu);
+            if (closeBtn) closeBtn.addEventListener('click', hideMenu);
+        });
+        // ...existing code...
+
+
+
+    </script>
+</html>

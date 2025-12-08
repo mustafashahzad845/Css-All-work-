@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="div-a1">
+    <a>Account Details</a>
+    </div>
+
+    <div class="div-a2">
+    <a>Personal Details</a>
+    </div>
+
+    <div class="div-a3">
+    <a>Your Review</a>
+    </div>
+
+    <form class="form">
+        <fieldset class="fieldset-Login">
+            <legend class="Legend-1">Your Review:</legend>
+            <br>
+            <div class="Select-line">
+                How did you hear about us?
+            </div>
+            <select class="Select">
+                    <option selected disabled>Select Your option</option>
+                    <option>Newspaper</option>
+                    <option>T.V</option>
+                    <option>Social Media</option>
+                    <option>Friends</option>
+                    <option>Others</option>
+                </select>
+
+                <div class="radio">
+                    Would you visit again?
+                    <br>
+                    <label for="Yes">
+                        <input type="radio" name="Answer" id="Yes">Yes
+                    </label>
+                    &nbsp;&nbsp;
+                    
+                    <label for="No">
+                        <input type="radio" name="Answer" id="No">No
+                    </label>
+                    &nbsp;&nbsp;
+
+                    <label for="Maybe">
+                        <input type="radio" name="Answer" id="Maybe">Maybe
+                    </label>
+                </div>
+
+                
+                    <label for="Comments" class="Description">
+                    Comments:
+                    <br>
+                    <textarea placeholder="Enter Your Comments here" required id="Comments"  rows="8" cols="30" ></textarea>
+                    </label>
+                </div>
+                <br><br><br>
+                <label for="" class="label-chose">
+                    Documents:
+                    <br>
+                    <input type="file" id="chose-file" required>
+                </label>
+<br>
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox">Sign me up for email updates
+                </label>
+                <br>
+
+
+                <a href="./PersonalDetails.html" class="icon-page3">
+                    <img src="../Images/image1.png" alt="" class="icon-page3">
+                </a>
+
+                <button type="submit" formaction="./thanking.html" class="icon-page3">
+                    <img src="../Images/image3.png" alt="" class="icon-page3">
+                </button>
+</fieldset>
+    </form>
+    
+
+</body>
+</html>

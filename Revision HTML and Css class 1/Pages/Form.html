@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustafa.com</title>
+    <link rel="icon" href="../Images/4f0df70d-0b0a-49a1-90e6-5b83455f1a97.png">
+</head>
+<body>
+    <h1>Forms Page</h1>
+    <a href="../index.html">Home</a>
+    <a href="./Contact.html">Contact</a>
+    <a href="./Form.html">Forms</a>
+    <a href="./Introduction.html">Introduction</a>
+    <a href="./Social Media Platforms.html">Social Media Platforms</a>
+    <a href="./Table.html">Table</a>
+    <br>
+    <br>
+    <form>
+    <fieldset>
+        <label for="Email">       
+    Email
+    <input type="email"  required id="Email" placeholder="Enter your Email" size="25">
+    </label>
+
+    <br><br>
+    <label for="Password">
+        Password
+        <input type="password" minlength="6" maxlength="8" required placeholder="Enter your password" id="Password">
+    </label>
+
+    <legend>User Login</legend>
+
+    <button>Log In</button>
+    </fieldset>
+    </form>
+
+
+    <form>
+
+        <label>Select your Gender <br></label>
+        <label for="Male">
+            
+        <input type="radio" name="Gender" id="Male">Male
+        </label>
+
+        <label for="Female">
+            <input type="radio"   id="Female" name="Gender">Female
+        </label>
+
+        <label for="Custom">
+            <input type="radio" id="Custom" name="Gender">Custom
+        </label>
+    </form>
+
+    <br>
+
+    <form>
+        <label>Favorite Fruits</label>
+        <br>
+        <label for="Apple">
+            <input type="checkbox" id="Apple" name="Fruits">Apple
+        </label>
+        <br>
+        <label for="Mango">
+<input type="checkbox" id="Mango" name="Fruits">Mango
+        </label>
+        <br>
+        <label for="Banana">
+            <input type="checkbox" id="Banana" name="Fruits" checked disabled>Banana
+        </label>
+    </form>
+
+    <form>
+        <select>
+            <option selected disabled>Select Your Country</option>
+            <option>Pakistan</option>
+            <option>India</option>
+            <option>China</option>
+            <option>Iran</option>
+            <option>Malaysia</option>
+            <option>Afghanistan</option>
+            <option>United State of America</option>
+            <option>United Kingdom</option>
+            <option value="Palestine">Palestine</option>
+            <option>Other</option>
+
+        </select>
+    </form>
+</body>
+</html>

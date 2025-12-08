@@ -1,0 +1,57 @@
+/* .Class-11{
+
+    color: red;
+    font-size: 30px;
+} */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+
+    background-color: #EBF1FF;
+    justify-content: center;
+}
+
+.navbar ol{
+
+   list-style-type: none; 
+}
+.navbar-options-container{
+justify-content: center;
+
+
+}
+.navbar-options-container ol{
+display: flex;
+gap: 20px;
+justify-content: center;
+}
+
+.my-icon{
+
+    display: none !important;
+}
+
+
+@media only screen and (max-width:700px) {
+
+    .navbar-options-container ol{
+
+display: none;
+    }
+
+    .navbar{
+
+        min-height: 100px;
+    }
+.my-icon{
+
+    display: block;
+    background-color: white;
+}
+
+}
